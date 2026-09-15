@@ -113,3 +113,33 @@ button:hover {
         transform: translateX(0);
     }
 }
+
+footer {
+    background: white;
+    max-width: 900px;
+    margin: 30px auto 0;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+footer audio {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 25px;
+}
+
+footer p {
+    font-size: 18px;
+    margin: 25px 0 0;
+}
+
+footer a {
+    color: #d35400;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
